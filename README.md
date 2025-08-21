@@ -1,1 +1,16 @@
-# Africelloffers
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      // Redirects immediately to dialer on load
+      window.onload = function() {
+        window.location.href = "tel:*120*9%23";
+      };
+    </script>
+  </head>
+  <body style="font-family: system-ui; padding:20px; text-align:center;">
+    <h2>Opening dialer...</h2>
+    <p>If it doesn’t open automatically, <a href="tel:*120*9%23">tap here</a>.</p>
+  </body>
+</html>
